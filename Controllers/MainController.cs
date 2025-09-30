@@ -143,22 +143,7 @@ namespace ResumeGenerator.Controllers
         [HttpGet("debug")]
         
 
-        async public Task<IActionResult> ChangeData()
-        {
-            var data = await _invoiceGenerator.Generate("123", "wefw1", "bebra@gmail.com");
-
-            using (var stream = new MemoryStream())
-            {
-                data.Save(stream, false); // false = don't close stream
-                var fileBytes = stream.ToArray();
-
-                
-                
-                return File(fileBytes, "application/pdf", "sample.pdf");
-            }
-
-            
-        }
+        
 
     }
 }
