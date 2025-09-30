@@ -51,7 +51,7 @@ namespace ResumeGenerator.Controllers
                   new SessionLineItemOptions
                   {
                     // Provide the exact Price ID (for example, price_1234) of the product you want to sell
-                    Price = "price_1RxRCuRDRrLo3j4eWDwSaici",
+                    Price = "pPiceId",
                     Quantity = 1,
                   },
                 },
