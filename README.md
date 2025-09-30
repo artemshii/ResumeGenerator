@@ -26,3 +26,5 @@ Add a valid appsettings.json file with the necessary configuration (database, St
 Run the application:
 
 dotnet run
+
+P.S only one style added right now, new styles will be added soon
